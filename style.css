@@ -1,16 +1,36 @@
-.header{
-    background-color: black;
-    padding: 10px 0;
-}
-h1{
-    color: white;
-    text-align: center;
-}
 body{
-    background-color: rgb(172, 163, 163);
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    color:blueviolet;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.logo img{
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.navbar li{
+    margin: 0 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color:cornflowerblue;
 }
 .content{
-   max-width: 800px;
-   background-color: white;
-   border-radius: 5px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rebeccapurple(0, 0, 0, 0,3);
 }
