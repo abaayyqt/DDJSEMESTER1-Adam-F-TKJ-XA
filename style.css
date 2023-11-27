@@ -5,6 +5,12 @@ body {
 
 h1, h2 {
     color: #333;
+    text-align: center;
+    img.logogacoan {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .Cards{
